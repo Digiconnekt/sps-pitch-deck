@@ -57,7 +57,7 @@
 }
 
 .banner .black-overlay h1 {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-size: 60px;
 }
 
@@ -76,6 +76,41 @@
 .banner .form-block {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+ul.social-icons-block li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  transition: all 0.25s ease;
+}
+
+ul.social-icons-block li a {
+  display: block;
+  color: #000000;
+}
+
+ul.social-icons-block li:hover {
+  background-color: #5d92e1;
+}
+ul.social-icons-block li.facebook:hover {
+  background-color: #3b5998;
+}
+ul.social-icons-block li.instagram:hover {
+  background-color: #c13584;
+}
+ul.social-icons-block li.linkedin:hover {
+  background-color: #0077b5;
+}
+
+ul.social-icons-block li:hover a {
+  color: #ffffff;
 }
 
 @media (max-width: 1200px) {
